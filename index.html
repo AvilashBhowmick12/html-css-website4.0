@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content=""IE=edge>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Web Design Mastery | Responsive Portfolio </title>
+          <!-- Load Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="#">Welcome to my Portfolio </a></div>
+                <label for="check" class="checkbox">
+                    <i class="ri-menu-line"></i>
+                </label>
+                <input type="checkbox" name="check" id="check">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="assets/Resume.pdf">Resume</a></li>
+                    <li><a href="#contact" onclick="scrollToContacts()">Contact</a></li>
+                </ul>
+                <script>
+                    function scrollToContacts(){
+                        var Contacts =document.getElementById("Contacts");
+                        Contacts.scrollIntoView({behavior:"smooth",block:"end"});
+                    }
+                </script>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="section__container">
+                <div class="content">
+                    <p class="subtitle">HELLO</p>
+                    <h1 class="title">
+                        I'm <span>Avilash Bhowmick</span> 
+                    </h1>
+                    <p class="description">
+                        Hi, I'm Avilash Bhowmick, a B.tech student in Information Technology from Meghnad Saha Institute of Technology.
+                        I'm passionate about web development and have experience working with HTML, CSS and JavaScript. I also enjoy content writing, technical writing and product reviewing, both technical and non-technical.
+                        I have skills in marketing, social media and SEO as well. In my free time, I like to play FPS games and explore new things. <br>
+                        <br>
+                        <br>
+                        In conclusion,-- <br>
+                        A web developer with a flair for writing, <br>
+                        A tech enthusiast who loves to learn and share, <br>
+                        A gamer who likes to challenge himself.
+                    </p>
+                    <div class="action__btns">
+                        <button class="More">More</button>
+                    </div>
+                </div> 
+                <div class="image">
+                    <img src="assets/profile.jpg" alt="profile" />
+                </div>
+            </div>
+
+            <div id ="about" class="section__container02">
+                <div class="about">
+                    <h2 data-aos="fade-up">Hello,</h2>
+                    <p data-aos="fade-up">I am a student of Information Technology who has always been passionate about learning new things and exploring new possibilities. I have had a remarkable academic journey so far, starting from my school days at St. Xavier's Institution, Panihati, where I completed my class 10 with an impressive 92% in ICSE board exams. I then moved to Bholananda National Vidyalaya, Barrackpore, where I continued to excel in my studies and secured 83% in class 12 CBSE board exams. Currently, I am pursuing Btech in information technology from Meghnad Saha Institute of Technology, where I am honing my skills and knowledge in various domains of computer science and engineering. I enjoy taking part in various co-curricular and extracurricular activities, such as coding competitions, quizzes, sports and cultural events. I also like to read books, watch movies and listen to music in my free time. I aspire to become a successful software engineer who can contribute to the society and the industry with innovative solutions and ideas.
+                        <br>
+                        <br>
+                        Apart from my academic pursuits, I have a wide range of hobbies and interests that keep me engaged and motivated. I love coding and creating portfolio websites, working on HTML, CSS and JS projects, and making small applications that solve real-world problems. I also have experience in working as a social media marketing intern, where I learned how to promote brands and products online. I enjoy writing blogs, technical articles, resumes and other forms of content that showcase my skills and knowledge. I am also fascinated by artificial intelligence and its applications, and I like to experiment with AI prompts and tools. In addition, I like to read books of various genres, watch anime and movies, and google random facts and trivia. I also spend some time on social media platforms, where I connect with like-minded people and share my opinions and insights.
+                    </p>
+                </div>
+                <div class="image1">
+                    <img src="assets/schools.png" alt="profile" />
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div id ="contact" class="section__container03">
+                <div class="contact">
+                    <h1 data-aos="fade-up" class="title">
+                        Contacts : <br>
+                        <br>
+                            <!-- Add the icons with links -->
+                            <a href="https://www.linkedin.com/in/avilash-bhowmick-497b24223" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100077799528138&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/desole_triste_prince" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:avilash_b.it2021@msit.edu.in" target="_blank"><i class="fas fa-envelope"></i></a>
+                            <a href="https://github.com/AvilashBhowmick12" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.youtube.com/@mtech.unboxing9465" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a hred="https://www.dailymotion.com/dm_9d69ce80a83c6e5ed5c5d7a0e386427a" target="_blank"><i class="fab fa-dailymotion"></i></a>
+                            
+                    </h1>
+                </div> 
+            </div>
+        </section>
+
+    </body>
+</html>
